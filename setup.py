@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 entry_points = {
     "paste.filter_app_factory": [
-        "ping = nti.wsgi.ping:ping_filter_factory"
+        "ping = nti.wsgi.ping:ping_handler_factory"
     ],
 }
 
